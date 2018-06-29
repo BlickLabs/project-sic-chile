@@ -5,7 +5,7 @@ server {
   root /home/static/project-sic-chile;
   index index.html index.htm;
 
-  server_name sandbox.sic-chi.getmore.mx;
+  server_name sandbox.sic-chi.getmore.mx www.sic-chile.cl sic-chile.cl sic-chile.getmore.mx;
 
   location / {
       try_files $uri $uri/ =404;
